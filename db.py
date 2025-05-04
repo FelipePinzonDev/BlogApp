@@ -19,3 +19,5 @@ Base = declarative_base()
 # Then U need to enter in MYSQL and create a user root and grant access refering to that ip like : CREATE USER 'root'@'192.168.42.5' IDENTIFIED BY 'password';
 # GRANT ALL PRIVILEGES ON *.* TO 'root'@'192.168.42.5' WITH GRANT OPTION;
 # FLUSH PRIVILEGES;
+
+# And don't forget to create the shcema first on MYSQL WorkBench or wathever
